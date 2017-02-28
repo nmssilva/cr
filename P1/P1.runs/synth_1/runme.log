@@ -14,20 +14,21 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 8164 
+INFO: Helper process launched with PID 3228 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 281.855 ; gain = 71.863
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 282.305 ; gain = 72.898
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'SDR_P1' [D:/Nuno Silva/Documents/UA/ano4/2sem/CR/aula1/P1/P1.srcs/sources_1/new/SDR_P1.vhd:45]
-INFO: [Synth 8-256] done synthesizing module 'SDR_P1' (1#1) [D:/Nuno Silva/Documents/UA/ano4/2sem/CR/aula1/P1/P1.srcs/sources_1/new/SDR_P1.vhd:45]
-WARNING: [Synth 8-3330] design SDR_P1 has an empty top module
+CRITICAL WARNING: [Synth 8-2489] overwriting existing secondary unit behavioral [D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.srcs/sources_1/new/SDR_P1_2.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'SDR_P1' [D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.srcs/sources_1/new/SDR_P1_2.vhd:45]
+WARNING: [Synth 8-614] signal 'btnR' is read in the process but is not in the sensitivity list [D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.srcs/sources_1/new/SDR_P1_2.vhd:48]
+WARNING: [Synth 8-614] signal 'btnD' is read in the process but is not in the sensitivity list [D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.srcs/sources_1/new/SDR_P1_2.vhd:48]
+WARNING: [Synth 8-614] signal 'btnC' is read in the process but is not in the sensitivity list [D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.srcs/sources_1/new/SDR_P1_2.vhd:48]
+WARNING: [Synth 8-614] signal 'btnU' is read in the process but is not in the sensitivity list [D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.srcs/sources_1/new/SDR_P1_2.vhd:48]
+WARNING: [Synth 8-614] signal 'btnL' is read in the process but is not in the sensitivity list [D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.srcs/sources_1/new/SDR_P1_2.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'SDR_P1' (1#1) [D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.srcs/sources_1/new/SDR_P1_2.vhd:45]
 WARNING: [Synth 8-3331] design SDR_P1 has unconnected port sw[4]
-WARNING: [Synth 8-3331] design SDR_P1 has unconnected port sw[3]
-WARNING: [Synth 8-3331] design SDR_P1 has unconnected port sw[2]
-WARNING: [Synth 8-3331] design SDR_P1 has unconnected port sw[1]
-WARNING: [Synth 8-3331] design SDR_P1 has unconnected port sw[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 319.297 ; gain = 109.305
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 318.781 ; gain = 109.375
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -37,7 +38,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 319.297 ; gain = 109.305
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 318.781 ; gain = 109.375
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -68,25 +69,25 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 534.438 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 542.129 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 534.438 ; gain = 324.445
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 542.129 ; gain = 332.723
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 534.438 ; gain = 324.445
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 542.129 ; gain = 332.723
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 534.438 ; gain = 324.445
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 542.129 ; gain = 332.723
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 534.438 ; gain = 324.445
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 542.129 ; gain = 332.723
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -120,14 +121,24 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3330] design SDR_P1 has an empty top module
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[15]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[14]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[13]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[12]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[11]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[10]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[9]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[8]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[7]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[6]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[5]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[4]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[3]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[2]
+WARNING: [Synth 8-3331] design SDR_P1 has unconnected port led[1]
 WARNING: [Synth 8-3331] design SDR_P1 has unconnected port sw[4]
-WARNING: [Synth 8-3331] design SDR_P1 has unconnected port sw[3]
-WARNING: [Synth 8-3331] design SDR_P1 has unconnected port sw[2]
-WARNING: [Synth 8-3331] design SDR_P1 has unconnected port sw[1]
-WARNING: [Synth 8-3331] design SDR_P1 has unconnected port sw[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 534.438 ; gain = 324.445
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 542.129 ; gain = 332.723
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -142,10 +153,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 561.051 ; gain = 351.059
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 571.785 ; gain = 362.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 561.051 ; gain = 351.059
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 571.785 ; gain = 362.379
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -157,7 +168,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 570.645 ; gain = 360.652
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 582.504 ; gain = 373.098
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -181,7 +192,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 570.645 ; gain = 360.652
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 582.504 ; gain = 373.098
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -194,7 +205,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 570.645 ; gain = 360.652
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 582.504 ; gain = 373.098
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -206,25 +217,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 570.645 ; gain = 360.652
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 582.504 ; gain = 373.098
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 570.645 ; gain = 360.652
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 582.504 ; gain = 373.098
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 570.645 ; gain = 360.652
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 582.504 ; gain = 373.098
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 570.645 ; gain = 360.652
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 582.504 ; gain = 373.098
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -237,27 +248,31 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+-----+------+
-|      |Cell |Count |
-+------+-----+------+
-|1     |IBUF |    16|
-|2     |OBUF |    16|
-+------+-----+------+
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT6  |     4|
+|2     |MUXF7 |     2|
+|3     |MUXF8 |     1|
+|4     |IBUF  |    20|
+|5     |OBUF  |     1|
+|6     |OBUFT |    15|
++------+------+------+
 
 Report Instance Areas: 
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
-|1     |top      |       |    32|
+|1     |top      |       |    43|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 570.645 ; gain = 360.652
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 582.504 ; gain = 373.098
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 570.645 ; gain = 145.512
-Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 570.645 ; gain = 360.652
+Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 582.504 ; gain = 149.750
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 582.504 ; gain = 373.098
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -265,9 +280,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-15 Infos, 17 Warnings, 5 Critical Warnings and 0 Errors encountered.
+16 Infos, 30 Warnings, 6 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 585.848 ; gain = 375.855
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 596.535 ; gain = 387.129
 INFO: [Common 17-1381] The checkpoint 'D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.runs/synth_1/SDR_P1.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 585.848 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Feb 28 20:43:30 2017...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 596.535 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 28 22:23:42 2017...

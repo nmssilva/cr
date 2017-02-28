@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-| Date         : Tue Feb 28 20:44:03 2017
+| Date         : Tue Feb 28 22:24:16 2017
 | Host         : Rogzinho running 64-bit major release  (build 9200)
 | Command      : report_utilization -file SDR_P1_utilization_placed.rpt -pb SDR_P1_utilization_placed.pb
 | Design       : SDR_P1
@@ -31,14 +31,14 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs              |    0 |     0 |     63400 |  0.00 |
-|   LUT as Logic          |    0 |     0 |     63400 |  0.00 |
+| Slice LUTs              |    4 |     0 |     63400 | <0.01 |
+|   LUT as Logic          |    4 |     0 |     63400 | <0.01 |
 |   LUT as Memory         |    0 |     0 |     19000 |  0.00 |
 | Slice Registers         |    0 |     0 |    126800 |  0.00 |
 |   Register as Flip Flop |    0 |     0 |    126800 |  0.00 |
 |   Register as Latch     |    0 |     0 |    126800 |  0.00 |
-| F7 Muxes                |    0 |     0 |     31700 |  0.00 |
-| F8 Muxes                |    0 |     0 |     15850 |  0.00 |
+| F7 Muxes                |    2 |     0 |     31700 | <0.01 |
+| F8 Muxes                |    1 |     0 |     15850 | <0.01 |
 +-------------------------+------+-------+-----------+-------+
 
 
@@ -67,10 +67,13 @@ Table of Contents
 +--------------------------+------+-------+-----------+-------+
 |         Site Type        | Used | Fixed | Available | Util% |
 +--------------------------+------+-------+-----------+-------+
-| Slice                    |    0 |     0 |     15850 |  0.00 |
-|   SLICEL                 |    0 |     0 |           |       |
+| Slice                    |    1 |     0 |     15850 | <0.01 |
+|   SLICEL                 |    1 |     0 |           |       |
 |   SLICEM                 |    0 |     0 |           |       |
-| LUT as Logic             |    0 |     0 |     63400 |  0.00 |
+| LUT as Logic             |    4 |     0 |     63400 | <0.01 |
+|   using O5 output only   |    0 |       |           |       |
+|   using O6 output only   |    4 |       |           |       |
+|   using O5 and O6        |    0 |       |           |       |
 | LUT as Memory            |    0 |     0 |     19000 |  0.00 |
 |   LUT as Distributed RAM |    0 |     0 |           |       |
 |   LUT as Shift Register  |    0 |     0 |           |       |
@@ -109,8 +112,8 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |   32 |    32 |       210 | 15.24 |
-|   IOB Master Pads           |   14 |       |           |       |
+| Bonded IOB                  |   36 |    36 |       210 | 17.14 |
+|   IOB Master Pads           |   17 |       |           |       |
 |   IOB Slave Pads            |   17 |       |           |       |
 | Bonded IPADs                |    0 |     0 |         2 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |         6 |  0.00 |
@@ -167,8 +170,12 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| OBUF     |   16 |                  IO |
-| IBUF     |   16 |                  IO |
+| IBUF     |   20 |                  IO |
+| OBUFT    |   15 |                  IO |
+| LUT6     |    4 |                 LUT |
+| MUXF7    |    2 |               MuxFx |
+| OBUF     |    1 |                  IO |
+| MUXF8    |    1 |               MuxFx |
 +----------+------+---------------------+
 
 

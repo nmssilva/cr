@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1488314580">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1488320591">
   <File Type="PWROPT-DRC" Name="SDR_P1_drc_pwropted.rpt"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="SDR_P1_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="SDR_P1_timing_summary_init.rpt"/>
@@ -68,10 +68,18 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/SDR_P1_2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="SDR_P1"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopLib" Val="xil_defaultlib"/>
+      <Option Name="TopArchitecture" Val="Behavioral"/>
+      <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/new/SDR_P1_2.vhd"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
