@@ -1,0 +1,4 @@
+Running: xsim.dir/SDR_P1_behav/xsimk.exe -simmode gui -wdb SDR_P1_behav.wdb -simrunnum 0 -socket 2968
+Design successfully loaded
+Design Loading Memory Usage: 8368 KB (Peak: 8368 KB)
+Design Loading CPU Usage: 62 ms

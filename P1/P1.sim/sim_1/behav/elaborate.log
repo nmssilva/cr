@@ -1,0 +1,14 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/Vivado/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 929f8b71ae234e14bf9678e4099806fe --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SDR_P1_behav xil_defaultlib.SDR_P1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.sdr_p1
+Built simulation snapshot SDR_P1_behav

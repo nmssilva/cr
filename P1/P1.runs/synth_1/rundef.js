@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log SDR_P1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source SDR_P1.tcl" );
+         "-log SDR_P1_3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source SDR_P1_3.tcl" );
 
 
 
