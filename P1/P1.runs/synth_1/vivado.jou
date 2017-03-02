@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Mar 01 19:09:59 2017
+# Process ID: 11552
+# Current directory: D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.runs/synth_1
+# Command line: vivado.exe -log SDR_P1_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SDR_P1_3.tcl
+# Log file: D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.runs/synth_1/SDR_P1_3.vds
+# Journal file: D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SDR_P1_3.tcl -notrace

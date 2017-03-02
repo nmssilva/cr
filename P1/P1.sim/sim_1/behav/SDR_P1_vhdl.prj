@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../../aula1/P1/P1.srcs/sources_1/new/SDR_P1.vhd"
+
+# Do not sort compile order
+nosort
