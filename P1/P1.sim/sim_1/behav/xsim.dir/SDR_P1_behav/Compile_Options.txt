@@ -1,1 +1,0 @@
--wto "929f8b71ae234e14bf9678e4099806fe" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "SDR_P1_behav" "xil_defaultlib.SDR_P1" -log "elaborate.log" 
