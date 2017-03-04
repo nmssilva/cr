@@ -30,12 +30,12 @@ use IEEE.STD_LOGIC_ARITH.all;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity SDR_P1_3 is
+entity SDR_P1 is
     port(sw     :   in std_logic_vector(2 downto 0);
          led    :   out std_logic_vector(1 downto 0));
-end SDR_P1_3;
+end SDR_P1;
 
-architecture Behavioral of SDR_P1_3 is
+architecture Behavioral of SDR_P1 is
 
     signal a,b,c: integer;
     signal result : integer;
