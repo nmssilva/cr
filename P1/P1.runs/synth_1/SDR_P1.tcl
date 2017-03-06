@@ -18,7 +18,7 @@ set_property ip_output_repo {d:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.ca
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
   {D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.srcs/sources_1/new/SDR_P1.vhd}
-  {D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.srcs/sources_1/new/SDR_P1_temperature.vhd}
+  {D:/Nuno Silva/Documents/UA/ano4/2sem/CR/cr/P1/P1.srcs/sources_1/new/SDR_P1_9.vhd}
 }
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp

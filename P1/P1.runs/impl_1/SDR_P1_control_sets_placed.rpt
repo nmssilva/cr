@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
-| Date         : Fri Mar 03 20:04:25 2017
+| Date         : Mon Mar 06 13:55:24 2017
 | Host         : Rogzinho running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file SDR_P1_control_sets_placed.rpt
 | Design       : SDR_P1
@@ -22,8 +22,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |     0 |
-| Unused register locations in slices containing registers |     0 |
+| Number of unique control sets                            |     3 |
+| Unused register locations in slices containing registers |     5 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,10 +33,10 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               0 |            0 |
-| No           | No                    | Yes                    |               0 |            0 |
+| No           | No                    | No                     |              16 |           10 |
+| No           | No                    | Yes                    |              27 |            7 |
 | No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              16 |            9 |
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -45,13 +45,19 @@ Table of Contents
 3. Detailed Control Set Information
 -----------------------------------
 
-+--------------+---------------+------------------+------------------+----------------+
-| Clock Signal | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
-+--------------+---------------+------------------+------------------+----------------+
++----------------+-----------------+---------------------------+------------------+----------------+
+|  Clock Signal  |  Enable Signal  |      Set/Reset Signal     | Slice Load Count | Bel Load Count |
++----------------+-----------------+---------------------------+------------------+----------------+
+|  p_1_in_BUFG   |                 |                           |               10 |             16 |
+|  p_1_in_BUFG   | led[15]_i_1_n_0 |                           |                9 |             16 |
+|  clk_IBUF_BUFG |                 | internal_clock[0]_i_2_n_0 |                7 |             27 |
++----------------+-----------------+---------------------------+------------------+----------------+
 
 
 +--------+-----------------------+
 | Fanout | Number of ControlSets |
++--------+-----------------------+
+| 16+    |                     3 |
 +--------+-----------------------+
 
 

@@ -42,9 +42,11 @@ architecture Behavioral of SDR_P1 is
     signal but : std_logic_vector(4 downto 0);
 
 begin
+
+but <= btnU & btnD & btnC & btnR & btnL;
+
 process(but)
 begin
-but <= btnU & btnD & btnC & btnR & btnL;
 
 case but is
 
