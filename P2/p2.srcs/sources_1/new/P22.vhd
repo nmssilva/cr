@@ -37,48 +37,42 @@ entity P2 is
     Port (sw    :in     std_logic_vector(3 downto 0);
           an    :out    std_logic_vector(7 downto 0);
           seg   :out    std_logic_vector(6 downto 0);
-          clk, btnC : in std_logic
+          mclk, clr : in std_logic;
     );
 end P2;
 
 architecture Behavioral of P2 is
-    signal internal_clock : std_logic_vector (26 downto 0);
+    signal q : std_logic_vector (26 downto 0);
 begin
-process (clk)
+process (mclk, clr)
 begin
-if sw(0)='1' then
-    if rising_edge(clk) then
-        if btnC = '1' then 
-                internal_clock <= (others => '0');
-        else    
-            if sw(1) = '0' then
-                internal_clock <= internal_clock+1;
-            else
-                internal_clock <= internal_clock-1;
-            end if;                
-        end if;
+    if clr = '1' then
+        q <= X"000000";
+    elsif mclk'event and mclk = '1' then
+        q <= q + 1;
     end if;
-end if;
 end process;
+
+
 
 an<="11111110";
 -- an <=(7=>'0', others=>'1');
 
-with internal_clock(4 downto 0) select seg <=  "0000001" when "0000", 
-                                                "1001111" when "0001", 
-                                                "0010010" when "0010", 
-                                                "0000010" when "0011", 
-                                                "1001100" when "0100", 
-                                                "0100100" when "0101", 
-                                                "0100000" when "0110", 
-                                                "0001101" when "0111", 
-                                                "0000000" when "1000", 
-                                                "0000100" when "1001", 
-                                                "0001000" when "1010",
-                                                "1100000" when "1011",
-                                                "0110001" when "1100",
-                                                "1000010" when "1101",
-                                                "0110000" when "1110", 
-                                                "0111000" when others;
+with q(4 downto 0) select seg <=  "0000001" when "0000", 
+                                  "1001111" when "0001", 
+                                  "0010010" when "0010", 
+                                  "0000010" when "0011", 
+                                  "1001100" when "0100", 
+                                  "0100100" when "0101", 
+                                  "0100000" when "0110", 
+                                  "0001101" when "0111", 
+                                  "0000000" when "1000", 
+                                  "0000100" when "1001", 
+                                  "0001000" when "1010",
+                                  "1100000" when "1011",
+                                  "0110001" when "1100",
+                                  "1000010" when "1101",
+                                  "0110000" when "1110", 
+                                  "0111000" when others;
 
 end Behavioral;
