@@ -50,8 +50,7 @@ architecture Behavioral of P2 is
     signal shift            :std_logic_vector(14 downto 0);
 begin
 
-led(14 downto 0) <= shift;
-led(15) <= divided_clk;
+led(15 downto 0) <= shift;
 
 sp1: process(clk)
 begin
