@@ -48,22 +48,23 @@ an<="11111110";
 
 process (sw)
 begin
-    if sw = "0000" then seg <= "0000001"; --0
-    elsif sw = "0001" then seg <= "1001111"; --1
-    elsif sw = "0010" then seg <= "0010010"; --2
-    elsif sw = "0011" then seg <= "0000010"; --3
-    elsif sw = "0100" then seg <= "1001100"; --4
-    elsif sw = "0101" then seg <= "0100100"; --5
-    elsif sw = "0110" then seg <= "0100000"; --6
-    elsif sw = "0111" then seg <= "0001101"; --7
+    if sw = "0000" then seg <= "1000000"; --0
+    elsif sw = "0001" then seg <= "1111001"; --1
+    elsif sw = "0010" then seg <= "0100100"; --2
+    elsif sw = "0011" then seg <= "0110000"; --3
+    elsif sw = "0100" then seg <= "0011001"; --4
+    elsif sw = "0101" then seg <= "0010010"; --5
+    elsif sw = "0110" then seg <= "0000010"; --6
+    elsif sw = "0111" then seg <= "1111000"; --7
     elsif sw = "1000" then seg <= "0000000"; --8
-    elsif sw = "1001" then seg <= "0000100"; --9
+    elsif sw = "1001" then seg <= "0001000"; --9
     elsif sw = "1010" then seg <= "0001000"; --A
-    elsif sw = "1011" then seg <= "1100000"; --B
-    elsif sw = "1100" then seg <= "0110001"; --C
-    elsif sw = "1101" then seg <= "1000010"; --D
-    elsif sw = "1110" then seg <= "0110000"; --E
-    else seg <= "0111000"; --F
+    elsif sw = "1011" then seg <= "0000011"; --B
+    elsif sw = "1100" then seg <= "1000110"; --C
+    elsif sw = "1101" then seg <= "0100001"; --D
+    elsif sw = "1110" then seg <= "0000110"; --E
+    elsif sw = "1111" then seg <= "0001110"; --F
+    else seg <= "1111111"; -- desligado
     end if;
 end process; 
 
