@@ -37,7 +37,7 @@ entity P2 is
     Port (sw    :in     std_logic_vector(3 downto 0);
           an    :out    std_logic_vector(7 downto 0);
           seg   :out    std_logic_vector(6 downto 0);
-          mclk, clr : in std_logic;
+          mclk, clr : in std_logic
     );
 end P2;
 
