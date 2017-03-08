@@ -31,16 +31,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity P21b is
-
+entity P2 is
     Port (sw    :in     std_logic_vector(3 downto 0);
           an    :out    std_logic_vector(7 downto 0);
           seg   :out    std_logic_vector(6 downto 0)   
-    );
-    
-end P21b;
+    );    
+end P2;
 
-architecture Behavioral of P21b is
+architecture Behavioral of P2 is
 
 begin
 
