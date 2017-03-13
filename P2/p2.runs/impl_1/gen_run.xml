@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1489009085">
-  <File Type="PWROPT-DRC" Name="P2_drc_pwropted.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="P2_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="P2_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR-RPX" Name="P2_power_routed.rpx"/>
   <File Type="PA-TCL" Name="P2.tcl"/>
-  <File Type="OPT-HWDEF" Name="P2.hwdef"/>
+  <File Type="INIT-TIMING" Name="P2_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="P2_methodology_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="P2_drc_pwropted.rpt"/>
   <File Type="RDI-RDI" Name="P2.vdi"/>
   <File Type="OPT-DCP" Name="P2_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="P2.hwdef"/>
   <File Type="OPT-DRC" Name="P2_drc_opted.rpt"/>
   <File Type="OPT-TIMING" Name="P2_timing_summary_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="P2_pwropt.dcp"/>
@@ -31,14 +31,14 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="P2_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="P2_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="P2_drc_routed.pb"/>
-  <File Type="BG-BIN" Name="P2.bin"/>
   <File Type="ROUTE-DRC-RPX" Name="P2_drc_routed.rpx"/>
-  <File Type="BG-DRC" Name="P2.drc"/>
+  <File Type="BG-BIN" Name="P2.bin"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="P2_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-MSK" Name="P2.msk"/>
+  <File Type="BG-DRC" Name="P2.drc"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="P2_methodology_drc_routed.rpx"/>
-  <File Type="BG-BGN" Name="P2.bgn"/>
+  <File Type="BITSTR-MSK" Name="P2.msk"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="P2_methodology_drc_routed.pb"/>
+  <File Type="BG-BGN" Name="P2.bgn"/>
   <File Type="ROUTE-PWR" Name="P2_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="P2_power_summary_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="P2_route_status.rpt"/>
@@ -89,9 +89,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
