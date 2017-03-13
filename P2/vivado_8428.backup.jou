@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Mar 08 22:24:29 2017
+# Process ID: 8428
+# Current directory: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6428 C:\Users\Pedro Coelho\OneDrive\UA\4ano\CR\cr\P2\p2.xpr
+# Log file: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2/vivado.log
+# Journal file: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2/p2.xpr}
+close [ open {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2/p2.srcs/sources_1/new/P22.vhd} w ]
+add_files {{C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2/p2.srcs/sources_1/new/P22.vhd}}
+close [ open {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2/p2.srcs/sources_1/new/P21e.vhd} w ]
+add_files {{C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2/p2.srcs/sources_1/new/P21e.vhd}}
+close [ open {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2/p2.srcs/sources_1/new/P23.vhd} w ]
+add_files {{C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2/p2.srcs/sources_1/new/P23.vhd}}
+close [ open {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2/p2.srcs/sources_1/new/P24.vhd} w ]
+add_files {{C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P2/p2.srcs/sources_1/new/P24.vhd}}
