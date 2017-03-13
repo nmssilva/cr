@@ -31,15 +31,15 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity P2 is
+entity P2a is
     Port (sw    :in     std_logic_vector(3 downto 0);
           an    :out    std_logic_vector(7 downto 0);
           seg   :out    std_logic_vector(6 downto 0)   
     );
     
-end P2;
+end P2a;
 
-architecture Behavioral of P2 is
+architecture Behavioral of P2a is
 begin
 
 an<="11111110";
