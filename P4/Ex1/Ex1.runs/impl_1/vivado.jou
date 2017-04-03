@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Mar 27 15:38:16 2017
+# Process ID: 4180
+# Current directory: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex1/Ex1.runs/impl_1
+# Command line: vivado.exe -log Ex1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Ex1.tcl -notrace
+# Log file: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex1/Ex1.runs/impl_1/Ex1.vdi
+# Journal file: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex1/Ex1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Ex1.tcl -notrace

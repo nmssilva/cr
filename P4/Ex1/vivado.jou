@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Mar 27 15:08:31 2017
+# Process ID: 7960
+# Current directory: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6880 C:\Users\Pedro Coelho\OneDrive\UA\4ano\CR\cr\P4\Ex1\Ex1.xpr
+# Log file: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex1/vivado.log
+# Journal file: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex1/Ex1.xpr}
+close_project
+open_project {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex2/Ex2.xpr}
+close_project
+open_project {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex3/Ex3.xpr}
+open_project {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex5/Ex5.xpr}
+close_project
+close_project
+open_project {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex4/Ex4.xpr}
+remove_files  -fileset constrs_1 {{C:/Users/Pedro Coelho/OneDrive/UA/4ano/Nexys4_Master.xdc}}
+add_files -fileset constrs_1 -norecurse {{C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/not repo/cenas/Nexys4_Master.xdc}}
+import_files -fileset constrs_1 {{C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/not repo/cenas/Nexys4_Master.xdc}}
+close_project
+open_project {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex5/Ex5.xpr}
+update_files -from_files {{C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/not repo/cenas/Nexys4_Master.xdc}} -to_files {{C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/Nexys4_Master.xdc}} -filesets [get_filesets *]
+close_project
+open_project {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex1/Ex1.xpr}
+reset_run synth_1
+reset_run blk_mem_gen_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex1/Ex1.runs/impl_1/Ex1.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex1/Ex1.runs/impl_1/Ex1.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw
+close_project
+open_project {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex4/Ex4.xpr}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex4/Ex4.runs/impl_1/TopTrivial.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P4/Ex4/Ex4.runs/impl_1/TopTrivial.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw

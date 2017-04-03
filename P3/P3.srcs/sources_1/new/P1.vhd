@@ -1,43 +1,54 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 13.03.2017 15:19:17
--- Design Name: 
--- Module Name: P1 - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
-entity P1 is
---  Port ( );
-end P1;
-
-architecture Behavioral of P1 is
-
-begin
-
-
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+ 
+entity FSM_count_ones is
+ 
+generic( number_of_bits : integer := 16);
+port (  clk : in std_logic;
+        btnC : in std_logic;
+        sw : in STD_LOGIC_VECTOR (15 downto 0);
+        led : out STD_LOGIC_VECTOR (4 downto 0));
+end FSM_count_ones;
+ 
+architecture Behavioral of FSM_count_ones is
+    type state_type is (initial_state, final_state); -- enumeração de estados
+    signal C_S, N_S : state_type;
+    signal index, next_index : integer range 0 to number_of_bits-1;
+    signal Res, next_Res : integer range 0 to number_of_bits;
+    signal n_o_ones, next_n_o_ones : integer range 0 to number_of_bits;
+   
+    begin
+        process (clk) -- processo sequencial
+            begin
+            if rising_edge(clk) then
+                if (btnC = '1') then C_S <= initial_state; index <= 0; n_o_ones <= 0; Res <= 0;
+                else C_S <= N_S;
+                index <= next_index; -- índice do vetor
+                n_o_ones <= next_n_o_ones; -- número de uns
+                Res <= next_Res; -- resultado
+                end if;
+            end if;
+       
+        end process;
+       
+        process (C_S, Sw, index, n_o_ones, Res) -- processo combinatório
+            begin
+                N_S <= C_S;
+                next_index <= index;
+                next_n_o_ones <= n_o_ones;
+                next_Res <= Res;
+                case C_S is
+                    when initial_state => next_index <= index + 1; N_S <= initial_state;
+                    next_n_o_ones <= n_o_ones + 1;
+                    if(index = number_of_bits-1) then N_S <= final_state;
+                    end if;
+                    when final_state => N_S <= initial_state;
+                    next_Res <= n_o_ones; next_n_o_ones <= 0; next_index <= 0;
+                    when others => N_S <= initial_state;
+                end case;
+        end process;
+    led <= conv_std_logic_vector(Res, 5); -- resultado
+       
 end Behavioral;

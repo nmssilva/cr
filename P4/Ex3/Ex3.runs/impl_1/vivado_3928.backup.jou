@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Apr 09 16:09:03 2015
+# Process ID: 2024
+# Log file: C:/Users/jeronimos/Documents/Universidade/CR/praticas/aula5_2/ex58/ex58.runs/impl_1/use_Iterative_Sorter_FSM.vdi
+# Journal file: C:/Users/jeronimos/Documents/Universidade/CR/praticas/aula5_2/ex58/ex58.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source use_Iterative_Sorter_FSM.tcl -notrace

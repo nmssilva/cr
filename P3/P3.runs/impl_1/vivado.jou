@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Mar 13 16:50:29 2017
+# Process ID: 6704
+# Current directory: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P3/P3.runs/impl_1
+# Command line: vivado.exe -log FSM_count_ones.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FSM_count_ones.tcl -notrace
+# Log file: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P3/P3.runs/impl_1/FSM_count_ones.vdi
+# Journal file: C:/Users/Pedro Coelho/OneDrive/UA/4ano/CR/cr/P3/P3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source FSM_count_ones.tcl -notrace

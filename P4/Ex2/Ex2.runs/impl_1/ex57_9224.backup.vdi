@@ -1,0 +1,551 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Mar 21 21:59:25 2016
+# Process ID: 9224
+# Current directory: D:/Aulas/Aula5/project_57/project_57.runs/impl_1
+# Command line: vivado.exe -log ex57.vdi -applog -messageDb vivado.pb -mode batch -source ex57.tcl -notrace
+# Log file: D:/Aulas/Aula5/project_57/project_57.runs/impl_1/ex57.vdi
+# Journal file: D:/Aulas/Aula5/project_57/project_57.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ex57.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:197]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:197]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:198]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:198]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:206]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:206]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:207]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc:207]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Aulas/Aula5/project_57/project_57.srcs/constrs_1/imports/Nexys-4 XDC/Nexys4_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 445.973 ; gain = 254.902
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.119 . Memory (MB): peak = 451.523 ; gain = 5.551
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 159b547de
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 13d2eafd6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 932.559 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant Propagation | Checksum: 13d2eafd6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 932.559 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 42 unconnected nets.
+INFO: [Opt 31-11] Eliminated 2 unconnected cells.
+Phase 3 Sweep | Checksum: 12ff079ba
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 932.559 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 932.559 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 12ff079ba
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.149 . Memory (MB): peak = 932.559 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 1 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 2
+Ending PowerOpt Patch Enables Task | Checksum: 12ff079ba
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 12ff079ba
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.550 . Memory (MB): peak = 1041.996 ; gain = 109.438
+INFO: [Common 17-83] Releasing license: Implementation
+25 Infos, 68 Warnings, 68 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1041.996 ; gain = 596.023
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.054 . Memory (MB): peak = 1041.996 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Aulas/Aula5/project_57/project_57.runs/impl_1/ex57_drc_opted.rpt.
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 Pre-Place Cells
+Phase 1.1.1 Pre-Place Cells | Checksum: 08c303a9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1041.996 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.2 IO and Clk Clean Up
+Phase 1.1.2 IO and Clk Clean Up | Checksum: 08c303a9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 1.1.3 Implementation Feasibility check On IDelay
+Phase 1.1.3 Implementation Feasibility check On IDelay | Checksum: 08c303a9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 1.1.4 Commit IO Placement
+Phase 1.1.4 Commit IO Placement | Checksum: 3f73a991
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 83ac5efe
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Init Lut Pin Assignment
+Phase 1.2.1.1 Init Lut Pin Assignment | Checksum: be7771b4
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 1.2.1 Place Init Design | Checksum: cee8c10d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 1.2 Build Placer Netlist Model | Checksum: cee8c10d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 1.3 Constrain Clocks/Macros
+
+Phase 1.3.1 Constrain Global/Regional Clocks
+Phase 1.3.1 Constrain Global/Regional Clocks | Checksum: cee8c10d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 1.3 Constrain Clocks/Macros | Checksum: cee8c10d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: cee8c10d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: cf8bfbef
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: cf8bfbef
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 126f1e36a
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 6ef0dbf3
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 3.4 updateClock Trees: DP
+Phase 3.4 updateClock Trees: DP | Checksum: 6ef0dbf3
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 11d678221
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 11d678221
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 3.7 Small Shape Detail Placement
+
+Phase 3.7.1 Commit Small Macros and Core Logic
+
+Phase 3.7.1.1 Commit Slice Clusters
+Phase 3.7.1.1 Commit Slice Clusters | Checksum: 123bf73eb
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 3.7.1 Commit Small Macros and Core Logic | Checksum: 123bf73eb
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns | Checksum: 123bf73eb
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: 123bf73eb
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 3.7 Small Shape Detail Placement | Checksum: 123bf73eb
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 67bc437f
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 67bc437f
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 4.1.1 callUpdateTimingBeforePCO
+Phase 4.1.1 callUpdateTimingBeforePCO | Checksum: b2afbe0f
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 4.1.2 updateClock Trees: PCOPT
+Phase 4.1.2 updateClock Trees: PCOPT | Checksum: b2afbe0f
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 4.1.3 Post Placement Optimization
+
+Phase 4.1.3.1 PCOPT Shape updates
+
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes | Checksum: b2afbe0f
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 4.1.3.1.2 deleteLutnmShapes
+
+Phase 4.1.3.1.2.1 deleteShapes
+Phase 4.1.3.1.2.1 deleteShapes | Checksum: 1bdf2acf0
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 4.1.3.1.2 deleteLutnmShapes | Checksum: 1bdf2acf0
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 4.1.3.1 PCOPT Shape updates | Checksum: 1bdf2acf0
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 4.1.3.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=3.844. For the most accurate timing information please run report_timing.
+Phase 4.1.3.2 Post Placement Timing Optimization | Checksum: 11dda49cd
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 4.1.3 Post Placement Optimization | Checksum: 11dda49cd
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 11dda49cd
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 11dda49cd
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 11dda49cd
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 4.4 Placer Reporting
+
+Phase 4.4.1 Restore STA
+Phase 4.4.1 Restore STA | Checksum: 11dda49cd
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 4.4 Placer Reporting | Checksum: 11dda49cd
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: afedba7a
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: afedba7a
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Ending Placer Task | Checksum: 8ff0c6b7
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1041.996 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+39 Infos, 68 Warnings, 68 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.092 . Memory (MB): peak = 1041.996 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.071 . Memory (MB): peak = 1041.996 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1041.996 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1041.996 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 1c0e3b25 ConstDB: 0 ShapeSum: 73e28b92 RouteDB: 0
+
+Phase 1 Build RT Design

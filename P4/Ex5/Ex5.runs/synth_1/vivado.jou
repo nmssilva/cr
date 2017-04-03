@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Mar 27 11:43:15 2017
+# Process ID: 13816
+# Current directory: C:/Users/Asus/Documents/Universidade/4 Ano/CR/Aula4/Ex5/Ex5.runs/synth_1
+# Command line: vivado.exe -log Ex5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ex5.tcl
+# Log file: C:/Users/Asus/Documents/Universidade/4 Ano/CR/Aula4/Ex5/Ex5.runs/synth_1/Ex5.vds
+# Journal file: C:/Users/Asus/Documents/Universidade/4 Ano/CR/Aula4/Ex5/Ex5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Ex5.tcl -notrace

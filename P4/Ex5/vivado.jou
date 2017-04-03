@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Mar 27 11:42:46 2017
+# Process ID: 9728
+# Current directory: C:/Users/Asus/Documents/Universidade/4 Ano/CR/Aula4/Ex5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13284 C:\Users\Asus\Documents\Universidade\4 Ano\CR\Aula4\Ex5\Ex5.xpr
+# Log file: C:/Users/Asus/Documents/Universidade/4 Ano/CR/Aula4/Ex5/vivado.log
+# Journal file: C:/Users/Asus/Documents/Universidade/4 Ano/CR/Aula4/Ex5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Asus/Documents/Universidade/4 Ano/CR/Aula4/Ex5/Ex5.xpr}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1
